@@ -72,6 +72,7 @@ public class QuizActivity extends AppCompatActivity {
             }
         });
 
+        //后退按钮有bug
         mPrevButton = (Button) findViewById(R.id.prev_button);
         mPrevButton.setOnClickListener(new View.OnClickListener() {
             @Override
