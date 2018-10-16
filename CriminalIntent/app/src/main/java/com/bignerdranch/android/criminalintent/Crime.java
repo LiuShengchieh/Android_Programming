@@ -1,5 +1,7 @@
 package com.bignerdranch.android.criminalintent;
 
+import android.support.annotation.VisibleForTesting;
+
 import java.util.Date;
 import java.util.UUID;
 
@@ -65,4 +67,9 @@ public class Crime {
     public void setSuspect(String suspect) {
         mSuspect = suspect;
     }
+
+    public String getPhotoFilename() {
+        return "IMG_" + getId().toString() + ".jpg";
+    }
+
 }
