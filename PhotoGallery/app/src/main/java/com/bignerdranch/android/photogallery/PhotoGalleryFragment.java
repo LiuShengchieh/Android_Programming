@@ -38,7 +38,7 @@ import java.util.logging.LogRecord;
  * 描述：
  */
 
-public class PhotoGalleryFragment extends Fragment {
+public class PhotoGalleryFragment extends VisibleFragment {
 
     private static final String TAG = "PhotoGalleryFragment";
 
